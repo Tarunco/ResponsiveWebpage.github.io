@@ -85,4 +85,67 @@ nav li:first-child{
       width: 100%;
     }  
 }
+
+
+
+/* Card Section */
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+  }
   
+  .card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-section .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+  
+  .card-section .card h4{
+    margin: 15px 0px;
+    font-size: 28px;
+    color: #1662a1;
+  }
+  
+  .card-section .card p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn{
+    display: inline-block;
+    border: 2px solid #1662a1;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1662a1;
+    transition: all 0.3s ease;
+    margin: 20px 0px;
+  }
+  
+  .btn:hover{
+    background-color: #1662a1;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 789px){
+    .card-section{
+      flex-direction: column;
+    }
+  }
+    
