@@ -90,7 +90,7 @@ nav li:first-child{
 
 /* Card Section */
 
-.container{
+/* .container{
     width: 100%;
     min-height: 100vh;
     background-color: #f7f7f7;
@@ -147,5 +147,5 @@ nav li:first-child{
     .card-section{
       flex-direction: column;
     }
-  }
+  } */
     
